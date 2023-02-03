@@ -24,3 +24,5 @@ app.use(expressLayouts);
 app.use(express.static("public"));
 app.listen(process.env.PORT || 3000);
 app.use(routes);
+
+export default app;
